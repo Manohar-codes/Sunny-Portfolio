@@ -145,12 +145,15 @@ nav a.active {
 }
 
 .hero-img img {
-  width: 230px;
-  height: 230px;
+  width: 240px;
+  height: 240px;
   border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid rgba(168,85,247,0.25);
+  object-fit: cover;  
+  object-position: top;     
+  border: 4px solid rgba(168,85,247,0.35);
+  background-color: #18182a;
 }
+
 
 .socials {
   margin-top: 14px;
