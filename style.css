@@ -264,6 +264,36 @@ ul li {
   border: 1px solid var(--border-soft);
 }
 
+.cert-list {
+  list-style: none;
+  margin-top: 30px;
+  display: grid;
+  gap: 14px;
+}
+
+.cert-list li {
+  background: rgba(24,24,42,0.85);
+  border: 1px solid rgba(255,255,255,0.06);
+  padding: 14px 18px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cert-list li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(168,85,247,0.2);
+}
+
+.cert-list a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.cert-list a:hover {
+  text-decoration: underline;
+}
+
 /* =====================
    CONTACT FORM
 ===================== */
