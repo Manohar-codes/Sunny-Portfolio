@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bhavya Sri | Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+  <div class="nav">
+    <div class="logo">Bhavya Sri</div>
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#internships">Internships</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section id="home" class="hero reveal">
+  <div class="hero-text">
+    <h1>Hi, I’m <span>Bhavya Sri</span></h1>
+    <p>Final Year B.Tech Student | Aspiring AI & Web Developer</p>
+
+    <div class="buttons">
+      <a href="#" class="btn">Download Resume</a>
+      <a href="#contact" class="btn secondary">Contact Me</a>
+    </div>
+  </div>
+
+  <div class="hero-img">
+    <img src="assets/profile.jpg" alt="Profile">
+    <div class="socials">
+      <a href="#"><i class='bx bxl-github'></i></a>
+      <a href="#"><i class='bx bxl-linkedin'></i></a>
+      <a href="mailto:bhavyasriii123@gmail.com"><i class='bx bx-envelope'></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about" class="section reveal">
+  <h2>About Me</h2>
+  <p>
+    I am a final-year B.Tech student specializing in Artificial Intelligence and Data Science.
+    I enjoy building machine learning models and simple web applications that solve real-world problems.
+    I am a quick learner, self-motivated, and passionate about continuous learning.
+  </p>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section id="skills" class="section reveal">
+  <h2>Skills</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Programming</h3>
+      <p>Python, Java</p>
+    </div>
+    <div class="card">
+      <h3>Web Technologies</h3>
+      <p>HTML, CSS, JavaScript</p>
+    </div>
+    <div class="card">
+      <h3>Machine Learning</h3>
+      <p>ML Basics, Model Training</p>
+    </div>
+    <div class="card">
+      <h3>Databases</h3>
+      <p>SQL</p>
+    </div>
+    <div class="card">
+      <h3>CS Fundamentals</h3>
+      <p>DBMS</p>
+    </div>
+    <div class="card">
+      <h3>Soft Skills</h3>
+      <p>Teamwork, Quick Learner</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section id="projects" class="section reveal">
+  <h2>Projects</h2>
+
+  <div class="grid two">
+    <div class="card">
+      <h3>Crop Prediction System</h3>
+      <p>
+        A machine learning system that predicts the best crop using Random Forest.
+        Built with Python and integrated with a web interface using HTML and CSS.
+      </p>
+      <span>Tech: Python, ML, HTML, CSS</span>
+    </div>
+
+    <div class="card">
+      <h3>SMS Spam Detection</h3>
+      <p>
+        Classified SMS messages as spam or ham using Logistic Regression and TF-IDF.
+        Implemented a simple web interface for real-time prediction.
+      </p>
+      <span>Tech: Python, ML, Flask, HTML, CSS</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== INTERNSHIPS ===== -->
+<section id="internships" class="section reveal">
+  <h2>Internships</h2>
+
+  <div class="grid two">
+    <div class="card">
+      <h3>Zero Trust Cloud Security</h3>
+      <p>Eduskills (Virtual)</p>
+      <p>Worked on secure authentication and encrypted communication.</p>
+    </div>
+
+    <div class="card">
+      <h3>Data Science Intern</h3>
+      <p>Skilldzire (Virtual)</p>
+      <p>Worked on data preprocessing and improving ML model performance.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CERTIFICATIONS ===== -->
+<section id="certifications" class="section reveal">
+  <h2>Certifications</h2>
+
+  <ul>
+    <li>Data Science using Python – Harvard EdX</li>
+    <li>NPTEL – Database Management Systems</li>
+    <li>Microsoft Excel – Coursera</li>
+    <li>C & Data Structures – Smart Interviews</li>
+  </ul>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="section reveal">
+  <h2>Contact Me</h2>
+
+  <form id="contactForm">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+    <p id="status"></p>
+  </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
