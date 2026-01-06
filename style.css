@@ -29,6 +29,7 @@ body {
   background: radial-gradient(circle at top, #16162b, #0f0f1a);
   color: var(--text-main);
   line-height: 1.6;
+   background-size: 200% 200%;
 }
 
 /* =====================
@@ -152,8 +153,11 @@ nav a.active {
    HERO IMAGE
 ===================== */
 .hero-img {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
 }
+
 
 .hero-img img {
   width: 240px;
@@ -168,7 +172,10 @@ nav a.active {
 
 .socials {
   margin-top: 14px;
+  display: flex;
+  justify-content: center;
 }
+
 
 .socials a {
   display: inline-flex;
