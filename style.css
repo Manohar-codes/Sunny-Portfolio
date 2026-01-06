@@ -155,8 +155,10 @@ nav a.active {
 .hero-img {
   display: flex;
   flex-direction: column;
-  align-items: center;     
+  align-items: center;
+  margin-top: 28px;  
 }
+
 
 
 .hero-img img {
